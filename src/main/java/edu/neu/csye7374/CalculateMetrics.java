@@ -61,6 +61,22 @@ public class CalculateMetrics {
         appleStock.setBid("180");
         System.out.println(appleStock.getName() + " Current price based on latest bid 180: " + appleStock.getPrice());
         System.out.println(appleStock.getName() + " Current metric based on latest bid 180: " + appleStock.getMetric());
+
+        appleStock.setBid("210");
+        System.out.println(appleStock.getName() + " Current price based on latest bid 210: " + appleStock.getPrice());
+        System.out.println(appleStock.getName() + " Current metric based on latest bid 210: " + appleStock.getMetric());
+
+        appleStock.setBid("170");
+        System.out.println(appleStock.getName() + " Current price based on latest bid 170: " + appleStock.getPrice());
+        System.out.println(appleStock.getName() + " Current metric based on latest bid 170: " + appleStock.getMetric());
+
+        appleStock.setBid("220");
+        System.out.println(appleStock.getName() + " Current price based on latest bid 220: " + appleStock.getPrice());
+        System.out.println(appleStock.getName() + " Current metric based on latest bid 220: " + appleStock.getMetric());
+
+        appleStock.setBid("160");
+        System.out.println(appleStock.getName() + " Current price based on latest bid 160: " + appleStock.getPrice());
+        System.out.println(appleStock.getName() + " Current metric based on latest bid 160: " + appleStock.getMetric());
     }
 
 }
